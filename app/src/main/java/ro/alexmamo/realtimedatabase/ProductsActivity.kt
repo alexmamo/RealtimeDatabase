@@ -23,24 +23,24 @@ class ProductsActivity : AppCompatActivity() {
     private fun getResponseUsingCallback() {
         viewModel.getResponseUsingCallback(object : FirebaseCallback {
             override fun onResponse(response: Response) {
-                print(response)
+                printResponse(response)
             }
         })
     }
 
     private fun getResponseUsingLiveData() {
         viewModel.getResponseUsingLiveData().observe(this, {
-            print(it)
+            printResponse(it)
         })
     }
 
     private fun getResponseUsingCoroutines() {
         viewModel.responseLiveData.observe(this, {
-            print(it)
+            printResponse(it)
         })
     }
 
-    private fun print(response: Response) {
+    private fun printResponse(response: Response) {
         response.products?.let { products ->
             products.forEach{ product ->
                 product.name?.let {
