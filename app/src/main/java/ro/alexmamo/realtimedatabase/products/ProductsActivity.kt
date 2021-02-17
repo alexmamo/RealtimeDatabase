@@ -1,9 +1,10 @@
-package ro.alexmamo.realtimedatabase
+package ro.alexmamo.realtimedatabase.products
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import ro.alexmamo.realtimedatabase.R
 import ro.alexmamo.realtimedatabase.data.FirebaseCallback
 import ro.alexmamo.realtimedatabase.data.Response
 import ro.alexmamo.realtimedatabase.utils.Constants.TAG

@@ -1,4 +1,4 @@
-package ro.alexmamo.realtimedatabase
+package ro.alexmamo.realtimedatabase.products
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel

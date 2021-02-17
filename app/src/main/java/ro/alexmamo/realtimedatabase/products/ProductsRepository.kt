@@ -1,4 +1,4 @@
-package ro.alexmamo.realtimedatabase
+package ro.alexmamo.realtimedatabase.products
 
 import androidx.lifecycle.MutableLiveData
 import com.google.firebase.database.DatabaseReference
