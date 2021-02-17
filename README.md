@@ -1,6 +1,6 @@
 # RealtimeDatabase - Clean Architecture with MVVM.
 
-It's an aplication build with Kotlin as an example on how to display data from a [Fireabse Realtime Database](https://firebase.google.com/docs/firestore), using three different solutions. The first solution is using a callback, the second solution is using an [Android Architecture Component](https://developer.android.com/topic/libraries/architecture) called [LiveData](https://developer.android.com/topic/libraries/architecture/livedata), and the third one is using [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html).
+It's an aplication build with Kotlin as an example on how to display data from a [Fireabse Realtime Database](https://firebase.google.com/docs/firestore), using three different approaches. The first approach is using a callback, the second approach is using an [Android Architecture Component](https://developer.android.com/topic/libraries/architecture) called [LiveData](https://developer.android.com/topic/libraries/architecture/livedata), and the third one is using [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html).
 
 To keep things simple, the app uses a very simple database schema that look like in the image below:
 
