@@ -10,4 +10,4 @@ To make this app work, follow the instructions given in the official documentati
 
 This repo is the source code of the this article: [How to read data from Firebase Realtime Database using get()?](https://medium.com/firebase-tips-tricks/how-to-read-data-from-firebase-realtime-database-using-get-269ef3e179c5)
 
-See it also on youtube: Coming soon.
+See it also on youtube: https://youtu.be/mOB40wowo6Y
