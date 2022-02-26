@@ -23,8 +23,8 @@ class ProductsActivity : AppCompatActivity() {
 
     private fun getResponseUsingCallback() {
         viewModel.getResponseUsingCallback(object : FirebaseCallback {
-            override fun onResponse(response: Response) {
-                print(response)
+            override fun onResponse(it: Response) {
+                print(it)
             }
         })
     }
